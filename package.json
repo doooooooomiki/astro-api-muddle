@@ -11,5 +11,10 @@
   },
   "dependencies": {
     "astro": "^1.1.5"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.13",
+    "postcss-import": "^15.0.0",
+    "postcss-nested": "^5.0.6"
   }
 }
