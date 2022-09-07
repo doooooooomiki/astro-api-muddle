@@ -1,0 +1,11 @@
+---
+const response = await fetch('https://owen-wilson-wow-api.herokuapp.com/wows/random');
+const data = await response.json();
+const [{full_line, poster, audio}] = data;
+---
+
+<article class="owen-wilson">
+  <p>{full_line}</p>
+  <img src={poster} alt="">
+  <audio controls src={audio}></audio>
+</article>
