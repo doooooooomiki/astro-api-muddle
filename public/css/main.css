@@ -1,0 +1,6 @@
+@import "./reset.css";
+
+.wrapper {
+  margin-inline: auto;
+  max-width: 600px;
+}
