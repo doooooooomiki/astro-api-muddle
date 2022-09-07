@@ -1,0 +1,19 @@
+---
+import MetaTags from '../components/MetaTags.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Header.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <MetaTags />
+  </head>
+  <body>
+    <Header />
+    <main class="wrapper">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
